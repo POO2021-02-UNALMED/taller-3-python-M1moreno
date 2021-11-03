@@ -2,16 +2,13 @@ class TV:
 
     _numTV = 0
 
-    def __init__(self, marca, canal, precio, estado, volumen, control):
+    def __init__(self, marca, estado):
+        self._marca = marca
         self._canal = 1
         self._volumen = 1
         self._precio = 500
-        self._marca = marca
-        self._canal = canal
-        self._precio = precio
         self._estado = estado
-        self._volumen = volumen
-        self._control = control
+        self._control = None
         TV._numTV += 1
 
     def setMarca (self, marca):
