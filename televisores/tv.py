@@ -51,8 +51,8 @@ class TV:
     def getNumTV (cls):
         return cls._numTV
 
-    def getEstado (self, estado):
-        self._estado = estado
+    def getEstado (self):
+        return self._estado
 
     def turnOn (self):
         self._estado = True

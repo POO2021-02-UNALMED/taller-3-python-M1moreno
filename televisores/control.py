@@ -13,8 +13,8 @@ class Control:
         return self._tv
 
     def enlazar (self, tv):
-        self._tv.setControl(self)
         self.setTv(tv)
+        self._tv.setControl(self)
 
     def turnOn (self):
         self._tv.turnOn()
