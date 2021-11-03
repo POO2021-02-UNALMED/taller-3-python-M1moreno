@@ -2,8 +2,8 @@ from televisores.tv import TV
 
 class Control:
 
-    def __init__(self, tv):
-        self._tv = tv
+    def __init__(self):
+        self._tv = None
 
     def setTv (self, tv):
         self._tv = tv
