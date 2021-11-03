@@ -35,4 +35,4 @@ class Control:
         self._tv.volumenDown()
 
     def setCanal (self, numero):
-        self._tv._canal = numero
+        self._tv.setCanal(numero)
